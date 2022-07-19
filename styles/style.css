@@ -1,0 +1,62 @@
+/* ===fonts === */
+
+
+/* =====utilities common style ===== */
+body {
+
+    background-color: #fff;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    width: 1321px;
+    height: 646px;
+    margin-top: 50px;
+    border-radius: 30px;
+
+}
+
+.top-text {
+    color: #fff;
+    margin-left: 80px;
+
+}
+
+.top-text-style {
+    font-size: 40px;
+}
+
+.top-text-style h4 {
+    background-color: red;
+    border: 5px 5px 5px 5px;
+
+}
+
+.button {
+    background-color: red;
+    margin: 10px 15px;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.paragraph-style {
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.player-image {
+    width: 581px;
+    height: 613px;
+    margin-top: 83px;
+    margin-left: 661px;
+    margin-right: 79px;
+}
