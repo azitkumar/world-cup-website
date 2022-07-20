@@ -54,9 +54,61 @@ body {
 }
 
 .player-image {
-    width: 581px;
-    height: 613px;
-    margin-top: 83px;
-    margin-left: 661px;
-    margin-right: 79px;
+   
+   
+   
+   
+   
 }
+.second-container{
+    
+    width: 312px;
+    height: 312px;
+    border: 826px 140px;
+    background-color: black;
+    color: #fff;
+    border-radius: 30px;
+   
+}
+.right-middle-feat{
+    border: 30px 30px 30px 30px;
+}
+.match-upcoming  {
+    background-color:white;
+    color: black;
+    padding: 10px 15px;
+   margin: 30px 30px 30px 30px;
+    font-size: 24px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+.all-group{
+    background-color:white;
+    color: black;
+    padding: 10px 15px;
+    margin:30px 30px 30px 30px;
+    font-size: 24px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+.blog{
+    background-color:rgb(221, 45, 45);
+color: #fff;
+padding: 10px 15px;
+margin:30px 30px 30px 30px;
+font-size: 24px;
+border-radius: 5px;
+cursor: pointer;
+
+}
+
+
+
+
+
+
+
+
+
