@@ -21,6 +21,9 @@ body {
 .top-text {
     color: #fff;
     margin-left: 80px;
+    width: 531px;
+    height: 424px;
+
 
 }
 
@@ -53,62 +56,73 @@ body {
     margin-top: 10px;
 }
 
-.player-image {
-   
-   
-   
-   
-   
-}
-.second-container{
-    
+.player-image {}
+
+.second-container {
+
     width: 312px;
     height: 312px;
     border: 826px 140px;
     background-color: black;
     color: #fff;
     border-radius: 30px;
-   
+
 }
-.right-middle-feat{
+
+.right-middle-feat {
     border: 30px 30px 30px 30px;
 }
-.match-upcoming  {
-    background-color:white;
+
+.match-upcoming {
+    background-color: white;
     color: black;
     padding: 10px 15px;
-   margin: 30px 30px 30px 30px;
+    margin: 30px 30px 30px 30px;
     font-size: 24px;
     border-radius: 5px;
     cursor: pointer;
 
 }
-.all-group{
-    background-color:white;
+
+.all-group {
+    background-color: white;
     color: black;
     padding: 10px 15px;
-    margin:30px 30px 30px 30px;
+    margin: 30px 30px 30px 30px;
     font-size: 24px;
     border-radius: 5px;
     cursor: pointer;
 
 }
-.blog{
-    background-color:rgb(221, 45, 45);
-color: #fff;
-padding: 10px 15px;
-margin:30px 30px 30px 30px;
-font-size: 24px;
-border-radius: 5px;
-cursor: pointer;
+
+.blog {
+    background-color: rgb(221, 45, 45);
+    color: #fff;
+    padding: 10px 15px;
+    margin: 30px 30px 30px 30px;
+    font-size: 24px;
+    border-radius: 5px;
+    cursor: pointer;
 
 }
 
+/* ========live match style ======= */
+.live-matches {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 24px;
 
+}
 
+.live-match-banner img {
+    width: 312px;
+    height: 175;
 
+}
 
+.match-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 
-
-
-
+}
