@@ -1,14 +1,13 @@
 /*==== Utilities And Common Style ==== */
 body{
     font-family: 'Arima', cursive;
-    font-family: 'Josefin Sans', sans-serif;
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Poppins', sans-serif;
-    font-family: 'Prompt', sans-serif;
-    font-family: 'Roboto', sans-serif;
-    font-family: 'Roboto Slab', serif;
-    font-family: 'Ubuntu', sans-serif;
-    background-color: #fff;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Prompt', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Slab', serif;
+font-family: 'Ubuntu', sans-serif;
+
 }
 /* /* ======  Header Style Start  ===== */
 .container {
