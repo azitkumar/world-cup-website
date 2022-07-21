@@ -1,5 +1,6 @@
 /* === google fonts === */
-font-family: 'Poppins', sans-serif;
+font-family: 'Poppins',
+sans-serif;
 
 
 /* =====utilities common style ===== */
@@ -16,14 +17,17 @@ body {
     height: 646px;
     margin-top: 50px;
     border-radius: 30px;
+    font-size: 2em;
 
 }
 
 .top-text {
     color: #fff;
     margin-left: 80px;
-    width: 531px;
-    height: 424px;
+
+
+
+    width: 50%;
 
 
 }
@@ -46,7 +50,7 @@ body {
     padding: 10px 15px;
     text-decoration: none;
     font-size: 16px;
-    margin: 4px 2px;
+
     border-radius: 5px;
     cursor: pointer;
 
@@ -57,8 +61,13 @@ body {
     margin-top: 10px;
 }
 
-.player-image {}
-
+.player-image {
+    width: 50%;
+}
+.container .player-image img{
+    width: 95%;
+}
+/*====== main section start ===== */
 .second-container {
 
     width: 312px;
@@ -67,12 +76,19 @@ body {
     background-color: black;
     color: #fff;
     border-radius: 30px;
+    margin: 50px 50px 0px 100px;
 
 }
 
 .right-middle-feat {
+    width: 252px;
+    height: 252px;
     border: 30px 30px 30px 30px;
+    margin: 10px 25px 25px 25px;
+    text-align: center;
+    position: absolute;
 }
+
 
 .match-upcoming {
     background-color: white;
@@ -107,23 +123,89 @@ body {
 
 }
 
+#main-body {
+    display: flex;
+
+
+
+}
+
 /* ========live match style ======= */
-.live-matches {
+#all-live-match {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-column-gap: 24px;
-
+    align-items: center;
+    justify-content: space-evenly;
+    position:relative;
 }
 
-.live-match-banner img {
+.live-match {
     width: 312px;
-    height: 175;
+    height: 362px;
 
 }
+
+
+
+
+.live-match-transfer {
+    background-color: rgb(107, 101, 101);
+    width: 67px;
+    height: 20px;
+    border-radius: 10px;
+    margin: 5px 5px;
+    padding: 5px;
+}
+
+
+
+
 
 .match-info {
     display: flex;
+    gap: 10px;
     align-items: center;
-    justify-content: space-between;
 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ====footer style start ======= */
+.footer {
+    background-color: rgb(247, 188, 188);
+    width: 100%;
+    height: 200px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.goal-font {
+    margin-left: 650px;
+
+}
+
+.footer-text {
+
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    font-weight: 700;
+}
+
+.goal-font {}
+
+hr {
+    width: 80%;
 }
