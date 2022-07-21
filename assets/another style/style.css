@@ -1,18 +1,4 @@
-/* =====utilities common style ===== */
-body {
-    font-family: 'Arima', cursive;
-    font-family: 'Josefin Sans', sans-serif;
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Poppins', sans-serif;
-    font-family: 'Prompt', sans-serif;
-    font-family: 'Roboto', sans-serif;
-    font-family: 'Roboto Slab', serif;
-    font-family: 'Ubuntu', sans-serif;
-
-    background-color: #fff;
-}
-
-/* ======  header style start  ===== */
+/* /* ======  header style start  ===== */
 .container {
     display: flex;
     justify-content: center;
@@ -29,8 +15,6 @@ body {
     color: #fff;
     margin-left: 80px;
     margin-top: 100px;
-
-
 
     width: 50%;
 
@@ -73,11 +57,8 @@ body {
     width: 95%;
 }
 
-/*====== main section start ===== */
+/* ======side menu style ====== */
 
-
-
-/* =====side menu style start ====== */
 .second-container {
 
     width: 312px;
@@ -132,48 +113,36 @@ body {
     cursor: pointer;
 
 }
-
-/* ========live match style ======= */
-
-#main-section {
+/*======== upcoming live matches style ======= */
+#main-section{
     display: flex;
-    justify-content: ;
-    position: relative;
 }
+.image{
+    display: flex;
+    width: 252px;
+    height: 56px;
+    margin: 10px 10px 10px 10px;
+   
 
-
-#all-live-match {
+}
+.images{
+    width: 312px;
+    height: 242;
+    margin-top: 60px;
+}
+.all-item{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    align-items: center;
-
-
-    margin-top: 50px;
-    margin-bottom: 50px;
-
 }
-
-.live-match {
-    width: 312px;
-    height: 362px;
-    margin-right: 10px;
-
-}
-
-.live-match-transfer {
-    background-color: rgb(107, 101, 101);
-    width: 67px;
-    height: 20px;
-    border-radius: 10px;
-    margin: 5px 5px;
-    padding: 5px;
-}
-
-.match-info {
-    display: flex;
-    gap: 10px;
-    align-items: center;
-
+.text-all{
+    width: 202px;
+    height: 60px;
+    font-weight: 700;
+    margin-right: 50px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    
 }
 
 /* ====footer style start ======= */
