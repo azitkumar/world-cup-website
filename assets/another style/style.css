@@ -1,4 +1,16 @@
-/* /* ======  header style start  ===== */
+/*==== Utilities And Common Style ==== */
+body{
+    font-family: 'Arima', cursive;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Prompt', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #fff;
+}
+/* /* ======  Header Style Start  ===== */
 .container {
     display: flex;
     justify-content: center;
@@ -57,7 +69,7 @@
     width: 95%;
 }
 
-/* ======side menu style ====== */
+/* ======Side Menu Style ====== */
 
 .second-container {
 
@@ -113,7 +125,7 @@
     cursor: pointer;
 
 }
-/*======== upcoming live matches style ======= */
+/*======== Upcoming Live Matches Style ======= */
 #main-section{
     display: flex;
 }
@@ -145,7 +157,7 @@
     
 }
 
-/* ====footer style start ======= */
+/* ====Footer Style Start ======= */
 .footer {
     background-color: rgb(247, 188, 188);
     width: 100%;

@@ -1,4 +1,4 @@
-/* =====utilities common style ===== */
+/* =====Utilities Common Style ===== */
 body {
     font-family: 'Arima', cursive;
     font-family: 'Josefin Sans', sans-serif;
@@ -12,7 +12,7 @@ body {
     background-color: #fff;
 }
 
-/* ======  header style start  ===== */
+/* ======  Header Style Start  ===== */
 .container {
     display: flex;
     justify-content: center;
@@ -73,11 +73,11 @@ body {
     width: 95%;
 }
 
-/*====== main section start ===== */
+/*====== Main Section Start ===== */
 
 
 
-/* =====side menu style start ====== */
+/* =====Side Menu Style Start ====== */
 .second-container {
 
     width: 312px;
@@ -133,7 +133,7 @@ body {
 
 }
 
-/* ========live match style ======= */
+/* ========Live Match Style ======= */
 
 #main-section {
     display: flex;
@@ -176,7 +176,7 @@ body {
 
 }
 
-/* ====footer style start ======= */
+/* ====Footer Style Start ======= */
 .footer {
     background-color: rgb(247, 188, 188);
     width: 100%;
@@ -208,7 +208,7 @@ hr {
 /* ====== Media Queries======== */
 
 
-/*======= mobile device==== */
+/*======= Mobile Device==== */
 
 @media only screen  and (max-width:480px) {
     .top-text{
